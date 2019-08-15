@@ -16,5 +16,6 @@ $factory->define(Contact::class, function (Faker $faker) {
         'created_at' => $faker->date("Y-m-d H:i:s"),
         'updated_at' => $faker->date("Y-m-d H:i:s"),
         'email' => $faker->unique()->safeEmail,
+        'address' => $faker->address,
     ];
 });

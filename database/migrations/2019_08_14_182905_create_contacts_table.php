@@ -22,6 +22,7 @@ class CreateContactsTable extends Migration
             $table->string('job_title');
             $table->string('city');
             $table->string('country');
+            $table->string('address');
         });
     }
 
