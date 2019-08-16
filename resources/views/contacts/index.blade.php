@@ -15,7 +15,7 @@
             <div>
                 <a style="margin: 19px;" href="{{ route('contacts.create')}}" class="btn btn-primary">New contact</a>
             </div>
-            <table class="table table-striped">
+            <table id="test" class="table table-striped">
                 <thead>
                 <tr>
                     <td>ID</td>
@@ -50,6 +50,7 @@
                 @endforeach
                 </tbody>
             </table>
-            </div>
-            </div>
+        </div>
+    </div>
 @endsection
+

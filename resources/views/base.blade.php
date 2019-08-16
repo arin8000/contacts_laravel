@@ -6,7 +6,6 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
 </head>
 <body>
-{{--<div class="container" style="margin-top: 20px;">--}}
 <div class="container">
     @yield('main')
 </div>
